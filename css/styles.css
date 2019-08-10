@@ -24,8 +24,19 @@ div.lion {
   border-radius: 20px;
   margin-left: 5px;
   margin-top : 10px;
+  font-size: 25px;
   
 }
 img{
   float: left;
+}
+div#hommis {
+  width:730px;
+  height:420px;
+  background-color: rgb(21, 21, 92);
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-top : 10px;
+  font-size: 35px;
+  font: color red
 }
