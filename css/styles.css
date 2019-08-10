@@ -1,3 +1,17 @@
 body{
   background-image:url('../images/images\ \(4\).jpeg')
 }
+div{
+  width: 600px;
+  height: 200px;
+  background-color: aqua;
+  margin: 10px auto;
+  border-radius: 15px;
+  border-color: blueviolet
+}
+h1 {
+  text-align: center
+}
+h2 {
+  text-align: center
+}
