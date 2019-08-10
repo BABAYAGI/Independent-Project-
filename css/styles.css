@@ -18,10 +18,14 @@ h2 {
   text-align: center
 }
 div.lion {
-  width:530px;
-  height:330px;
+  width:630px;
+  height:360px;
   background-color: blue;
   border-radius: 20px;
   margin-left: 5px;
   margin-top : 10px;
+  
+}
+img{
+  float: left;
 }
