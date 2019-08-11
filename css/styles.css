@@ -2,46 +2,84 @@ body{
   background-image:url('../../../../Downloads/matrix-1461373324WTC.jpg')
 }
 div.me{
-  width: 600px;
-  height: 220px;
+  width: 1200px;
+  height: 320px;
   background-color: aqua;
   margin: 10px auto;
   border-radius: 15px;
   border-color: blueviolet;
   padding: 12px;
   border: 14px; 
+  background-image: url(../images/red.jpg);
+  color: rgba(164, 204, 18, 0.747);
 }
-h1 {
-  text-align: center
+div.me ul li{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-top: 10px;
+  font-style: oblique;
+  color: rgba(164, 204, 18, 0.747);
+}
+h1{
+  text-align: center;
+  border-width: 20px; 
+  margin-top: 40px;
+  background-color: aqua;
+  width: 25%;
+  margin-left: 450px;
+  border-radius: 15px;
+  background-image: url(../images/red.jpg);
+  color: rgba(164, 204, 18, 0.747);
 }
 h2 {
   text-align: center
 }
 div.lion {
-  width:630px;
-  height:360px;
-  background-color: blue;
+  width: 28%;
+  min-height: 400px;
+  background: #ccc;
+  float: right;
+  border:40px;
+  border-color: aqua;
   border-radius: 20px;
-  margin-left: 5px;
-  margin-top : 10px;
-  font-size: 25px;
+  background-image: url(../images/red.jpg);;
+  margin-top: 40px;
   
+}
+
+
+div.lion p{
+  font-size: 45px;
+  color: rgba(164, 204, 18, 0.747);
 }
 img{
   float: left;
+  display: block;
+  max-width: 100%;
+
 }
 div#hommis {
-  width:730px;
-  height:420px;
-  background-color: rgb(21, 21, 92);
+  width: 60%;
+  min-height: 60px;
+  background: #ccc;
+  float: left;
+  border:40px;
+  border-color: aqua;
   border-radius: 20px;
-  margin-left: 5px;
-  margin-top : 10px;
-  font-size: 35px;
-  font: color red
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-image: url(../images/red.jpg);
+  margin-top: 40px;
+  
+  margin-left: 14px; 
 }
-#j image {
-  display: block
+
+div #hommis p{
+  font-size: 35px;
+  color: rgba(164, 204, 18, 0.747);
+}
+.full{
+ width: 100%;
 }
 nav {
   width: 100%
@@ -52,6 +90,7 @@ nav ul {
   border-radius: 4px;
   background: #262626;
   overflow: hidden;
+  background-image: url(../images/red.jpg);
 }
 nav ul li{
   list-style: none;
@@ -65,6 +104,58 @@ nav ul li a{
 }
 .active,
 nav ul li a:hover{
-  background: blue;
+  background:  rgba(164, 204, 18, 0.747);
   
+}
+.col-7 {
+  width: 60%;
+  min-height: 60px;
+  background: #ccc;
+  float: left;
+  border:40px;
+  border-color: aqua;
+  border-radius: 20px;
+  
+}
+.col-3 {
+  width: 28%;
+  min-height: 400px;
+  background: #ccc;
+  float: right;
+  border:40px;
+  border-color: aqua;
+  border-radius: 20px;
+}
+.margin{
+margin-top: 80px; 
+}
+.post
+{
+ background-image: url(../images/red.jpg);
+ padding: 30px;
+ border: 40px;
+ border-radius: 15px; 
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 20px; 
+ 
+}
+.post p{
+  color: rgba(164, 204, 18, 0.747);
+  font-size: 26px;
+}
+img{
+  max-width: 100%;
+
+}
+
+.col-8 {
+  width: 50%;
+  min-height: 60px;
+  background: #ccc;
+  float: left;
+  border:40px;
+  border-color: aqua;
+  border-radius: 20px;
+  margin-top: 140px;
+  margin-left: 40px;
 }
