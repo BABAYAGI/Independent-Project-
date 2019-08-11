@@ -200,3 +200,41 @@ div.mail ul li{
   font-weight: bold;
   font-display: block; 
 }
+
+  div .link 
+  {
+    width: 60%;
+    min-height: 60px;
+    background: #ccc;
+    float: left;
+    border:40px;
+    border-color: aqua;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+
+  div .linkr
+    {
+      width: 60%;
+      min-height: 60px;
+      background: #ccc;
+      float: right;
+      border:40px;
+      border-color: aqua;
+      border-radius: 20px;
+      margin-top: 60px;
+    }
+  div.link a 
+  {
+    font-size: 40px;
+    font: outline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  div.linkr a 
+  {
+    font-size: 40px;
+    font: outline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
