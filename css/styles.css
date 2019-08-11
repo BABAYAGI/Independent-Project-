@@ -159,3 +159,44 @@ img{
   margin-top: 140px;
   margin-left: 40px;
 }
+div.tel {
+  width: 160px;
+  min-height: 60px;
+  background: #ccc;
+  float: left;
+  border:40px;
+  border-color: aqua;
+  border-radius: 20px;
+  margin-top: 150px;
+  display: inline;
+  margin-left: 40px;
+  background-image: url(../images/red.jpg);
+} 
+div.tel ul li{
+  color: rgba(164, 204, 18, 0.747);
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-display: block: 
+}
+
+div.mail {
+  width: 230px;
+  min-height: 60px;
+  background: #ccc;
+  float: left;
+  border:40px;
+  border-color: aqua;
+  border-radius: 20px;
+  margin-top: 150px;
+  display: inline;
+  margin-left: 40px;
+  background-image: url(../images/red.jpg);
+}
+div.mail ul li{
+  color: rgba(164, 204, 18, 0.747);
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-display: block; 
+}
