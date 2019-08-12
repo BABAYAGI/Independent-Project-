@@ -17,5 +17,4 @@ tel : 0707147614
 email : darsanh907@gmail.com    
       : darsan_hirani@hotmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+[MIT LICENSE](LICENSE)
